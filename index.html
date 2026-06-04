@@ -17,9 +17,10 @@
 <script src="jd-v20260604h-07.js"></script>
 <script src="jd-v20260604h-08.js"></script>
 <script src="jd-v20260604h-09.js"></script>
+<script src="jd-gateway-patch-i.js"></script>
 <script>
 document.open();
-document.write((window.__JD_HTML||[]).join(''));
+document.write(window.__JD_PATCHED_HTML || (window.__JD_HTML||[]).join(''));
 document.close();
 </script>
 </body>
